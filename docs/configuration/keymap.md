@@ -163,12 +163,12 @@ For Windows users, you can also switch drives using the `cd` command (Nightly ve
 
 ```toml
 [[manager.prepend_keymap]]
-on   = [ "g", "d" ],
-run  = "cd D:"
+on   = [ "g", "d" ]
+run  = "cd D:\\"
 desc = "Switch to D drive"
 
 [[manager.prepend_keymap]]
-on   = [ "g", "p" ],
+on   = [ "g", "p" ]
 run  = 'cd "E:\\Pictures"'  # We need to escape the backslash
 desc = 'Cd to E:\Pictures'
 ```
